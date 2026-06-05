@@ -1,5 +1,7 @@
 # DuePocket / 防扣费雷达
 
+Live demo: https://jiaye1998.github.io/duepocket/
+
 DuePocket is an **AI-powered local-first renewal and app-wallet radar**. It helps people catch upcoming subscriptions, trial conversions, and low app-wallet balances without requiring bank sync or an account.
 
 This repository is built as a portfolio-grade PWA demo for AI product engineering: product framing, privacy boundaries, AI workflow design, frontend engineering, local persistence, export flows, and extraction evaluation.
