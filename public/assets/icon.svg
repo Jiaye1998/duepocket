@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">DuePocket icon</title>
+  <desc id="desc">A compact pocket with due date cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="74" x2="438" y1="56" y2="456" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#176f5d"/>
+      <stop offset="1" stop-color="#2f6fed"/>
+    </linearGradient>
+    <linearGradient id="card" x1="158" x2="356" y1="118" y2="288" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff2ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <path fill="#0f5d50" opacity=".3" d="M92 310c48 78 112 118 192 118 66 0 114-22 144-66v66H92z"/>
+  <rect x="154" y="96" width="204" height="216" rx="28" fill="url(#card)" transform="rotate(-7 256 204)"/>
+  <rect x="189" y="133" width="78" height="18" rx="9" fill="#176f5d" opacity=".9"/>
+  <rect x="188" y="177" width="132" height="16" rx="8" fill="#647182" opacity=".35"/>
+  <rect x="190" y="214" width="108" height="16" rx="8" fill="#647182" opacity=".26"/>
+  <path fill="#ffffff" d="M98 254h316v76c0 64-52 116-116 116h-84c-64 0-116-52-116-116z"/>
+  <path fill="#dff2ec" d="M124 286h264v42c0 50-40 90-90 90h-84c-50 0-90-40-90-90z"/>
+  <path fill="#176f5d" d="M154 254h204v42c0 35-28 63-63 63h-78c-35 0-63-28-63-63z"/>
+  <circle cx="358" cy="154" r="42" fill="#ffcf66"/>
+  <path fill="#162026" d="M340 151h36v12h-36z"/>
+</svg>

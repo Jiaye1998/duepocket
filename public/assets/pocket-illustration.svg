@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+  <title id="title">DuePocket dashboard illustration</title>
+  <desc id="desc">Cards for bills and reminders arranged around a pocket.</desc>
+  <defs>
+    <linearGradient id="pocket" x1="109" x2="414" y1="87" y2="323" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#176f5d"/>
+      <stop offset="1" stop-color="#248a7a"/>
+    </linearGradient>
+    <linearGradient id="bluecard" x1="271" x2="447" y1="38" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e4edff"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="520" height="360" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1f2d34" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect x="56" y="242" width="408" height="42" rx="21" fill="#d8e0e5" opacity=".58"/>
+  <g filter="url(#shadow)">
+    <rect x="264" y="45" width="166" height="132" rx="22" fill="url(#bluecard)" transform="rotate(8 347 111)"/>
+    <rect x="294" y="78" width="84" height="14" rx="7" fill="#2f6fed"/>
+    <rect x="294" y="111" width="104" height="12" rx="6" fill="#647182" opacity=".32"/>
+    <rect x="294" y="139" width="72" height="12" rx="6" fill="#647182" opacity=".22"/>
+    <rect x="98" y="62" width="170" height="132" rx="22" fill="#fff1cf" transform="rotate(-9 183 128)"/>
+    <rect x="127" y="92" width="70" height="14" rx="7" fill="#a96800"/>
+    <rect x="127" y="128" width="108" height="12" rx="6" fill="#647182" opacity=".32"/>
+    <rect x="127" y="156" width="82" height="12" rx="6" fill="#647182" opacity=".22"/>
+    <path d="M87 154h346v71c0 71-58 129-129 129h-88c-71 0-129-58-129-129z" fill="#ffffff"/>
+    <path d="M117 187h286v38c0 54-44 98-98 98h-90c-54 0-98-44-98-98z" fill="#dff2ec"/>
+    <path d="M155 154h210v54c0 39-32 71-71 71h-68c-39 0-71-32-71-71z" fill="url(#pocket)"/>
+    <circle cx="382" cy="210" r="36" fill="#d65745"/>
+    <path d="M367 209h30" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="202" cy="212" r="14" fill="#ffffff" opacity=".86"/>
+    <circle cx="245" cy="212" r="14" fill="#ffffff" opacity=".86"/>
+    <circle cx="288" cy="212" r="14" fill="#ffffff" opacity=".86"/>
+  </g>
+</svg>

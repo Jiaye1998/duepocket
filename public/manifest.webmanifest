@@ -1,0 +1,46 @@
+{
+  "name": "DuePocket - Renewal Radar",
+  "short_name": "DuePocket",
+  "description": "AI-powered local-first renewal and app-wallet radar.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f7fa",
+  "theme_color": "#176f5d",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "30-day Radar",
+      "short_name": "Radar",
+      "url": "./?view=radar",
+      "icons": [
+        {
+          "src": "./assets/icon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "AI Intake",
+      "short_name": "AI Intake",
+      "url": "./?view=ai",
+      "icons": [
+        {
+          "src": "./assets/icon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

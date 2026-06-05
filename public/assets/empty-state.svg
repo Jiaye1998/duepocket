@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img" aria-labelledby="title desc">
+  <title id="title">Empty state</title>
+  <desc id="desc">An empty pocket with a checked card.</desc>
+  <rect x="28" y="110" width="164" height="20" rx="10" fill="#d8e0e5"/>
+  <rect x="58" y="26" width="104" height="76" rx="14" fill="#ffffff" stroke="#d8e0e5" stroke-width="4" transform="rotate(-8 110 64)"/>
+  <path d="m85 64 16 16 35-38" fill="none" stroke="#176f5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path d="M40 68h140v30c0 29-23 52-52 52H92c-29 0-52-23-52-52z" fill="#dff2ec"/>
+  <path d="M66 68h88v20c0 19-15 34-34 34h-20c-19 0-34-15-34-34z" fill="#176f5d"/>
+</svg>
